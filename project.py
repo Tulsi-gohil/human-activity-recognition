@@ -9,7 +9,7 @@ import time
 # Activity Recognition Class
 # --------------------------
 class ActivityRecognizer:
-    def __init__(self):
+    def _init_(self):
         self.mp_pose = mp.solutions.pose
         self.mp_drawing = mp.solutions.drawing_utils
         self.pose = self.mp_pose.Pose(
